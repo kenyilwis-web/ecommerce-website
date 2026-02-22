@@ -1,0 +1,163 @@
+{
+  "heroContent": [
+    {
+      "id": 1,
+      "title": "Coffee R Us",
+      "tagline": "The go to store for your coffee needs"
+    }
+  ],
+  "navLinks": [
+    {
+      "id": 1,
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "id": 2,
+      "label": "Shop",
+      "path": "/shop"
+    },
+    {
+      "id": 3,
+      "label": "Admin Portal",
+      "path": "/admin"
+    }
+  ],
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Coffee R Us",
+      "description": "The go to store for your coffee",
+      "phone_number": "555-5555",
+      "email": "support@coffeerus.com"
+    }
+  ],
+  "coffee": [
+    {
+      "id": 1,
+      "name": "Vanilla Bean",
+      "description": "Medium roast with nutty vanilla finish.",
+      "origin": "Colombia",
+      "price": 10.0,
+      "roast": "Medium"
+    },
+    {
+      "id": 2,
+      "name": "House Blend",
+      "description": "Dark roast with rich cocoa flavor.",
+      "origin": "Vietnam",
+      "price": 12.0,
+      "roast": "Dark"
+    },
+    {
+      "id": 3,
+      "name": "Sunrise Blend",
+      "description": "Light roast with citrus and honey notes.",
+      "origin": "Ethiopia",
+      "price": 11.5,
+      "roast": "Light"
+    },
+    {
+      "id": 4,
+      "name": "Mocha Reserve",
+      "description": "Medium-dark roast with chocolate profile.",
+      "origin": "Brazil",
+      "price": 13.25,
+      "roast": "Medium-Dark"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "location 1",
+      "slug": "location-1"
+    },
+    {
+      "id": 2,
+      "name": "location 2",
+      "slug": "location-2"
+    },
+    {
+      "id": 3,
+      "name": "location 3",
+      "slug": "location-3"
+    },
+    {
+      "id": 4,
+      "name": "location 4",
+      "slug": "location-4"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ethiopian Yirgacheffe",
+      "description": "Floral aroma with bright citrus notes.",
+      "origin": "Ethiopia",
+      "price": 14.99,
+      "currency": "USD",
+      "categoryId": 1,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Colombian Supremo",
+      "description": "Balanced body with caramel sweetness.",
+      "origin": "Colombia",
+      "price": 12.49,
+      "currency": "USD",
+      "categoryId": 2,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Kenya AA",
+      "description": "Berry-forward cup with vibrant acidity.",
+      "origin": "Kenya",
+      "price": 13.99,
+      "currency": "USD",
+      "categoryId": 3,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Sumatra Mandheling",
+      "description": "Earthy, full-bodied, and low acidity.",
+      "origin": "Indonesia",
+      "price": 15.25,
+      "currency": "USD",
+      "categoryId": 4,
+      "inStock": false
+    },
+    {
+      "id": 5,
+      "name": "Guatemala Antigua",
+      "description": "Chocolate notes and mild spice finish.",
+      "origin": "Guatemala",
+      "price": 13.5,
+      "currency": "USD",
+      "categoryId": 1,
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Brazil Santos",
+      "description": "Nutty profile with smooth body.",
+      "origin": "Brazil",
+      "price": 11.99,
+      "currency": "USD",
+      "categoryId": 2,
+      "inStock": true
+    }
+  ],
+  "adminUsers": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@coffeerus.com",
+      "password": "admin123",
+      "role": "admin",
+      "active": true
+    }
+  ]
+}
